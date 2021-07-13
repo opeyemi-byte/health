@@ -1,0 +1,907 @@
+ header nav{
+    background: beige;
+    min-height: 15px;
+}
+
+header nav ul{
+    float: right;
+    margin-right: 20px;
+} 
+
+ header nav ul li a{
+    text-decoration: none;
+    color: rgb(216, 23, 87);
+    padding: 5px;
+    font-size: 20px;
+} 
+
+header nav ul li a:hover{
+    background: pink;
+    border-radius: 10px;
+} 
+
+
+ header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}  
+
+h1{
+    color: red;
+    font-size: 35px;
+    padding-left: 24%;
+    margin-bottom: 15px;
+}
+
+.head-div h3{
+    font-size: 20px;
+    padding-left:  39%;
+    margin-bottom: 5px;
+}
+.head-div a{
+    padding-left: 48%;
+    margin-top: 50%;
+}
+
+header nav div img{
+    width: 3%;
+    padding: 10px;
+}
+.head-div{
+    background-image: url(../images/nurse-3624463_1920.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0.1px;
+}
+
+.main-wrapper{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+.main-wrapper .main-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px;
+}
+
+.main-wrapper .main-div .equip{
+    background: white;
+    border: 2px solid gray;
+    width: 25%;
+    margin: 0 15px;
+}
+
+.main-wrapper .main-div .equip img{
+    width: 100%;
+    height: 45vh;
+    border-bottom: 1px solid gray;
+    padding-top: 5%;
+}
+
+.footer-wrap{
+    background: darkslategray;
+    display: flex;
+    flex-wrap: nowrap;
+    /* margin-top: 30px; */
+}
+
+.footer-wrap div{
+    margin: 20px 0 0 9px;
+}
+
+.footer-wrap .footer-two{
+    margin-left: 12%;
+}
+
+.footer-wrap .footer-three{
+    margin-left: 15%;
+}
+
+.footer-wrap div ul li{
+    list-style: none;
+    color: rgb(8, 19, 19);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-wrap div p{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-wrap div form input{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-wrap div textarea{
+    margin-top: 10px;
+}
+
+.footer-wrap div button{
+    width: 55%;
+    padding: 10px;
+    color: rgb(255, 238, 0);
+    font-size: 18px;
+    margin-bottom: 20px;
+    background: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-wrap div button:hover{
+    background: white;
+    color: blue;
+}
+
+.about-wrap{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_ceo{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    margin-top: 30px;
+    margin-bottom: -120px;
+}
+
+.about_ceo div{
+    margin-left: -30%;
+}
+
+.about_ceo div img{
+    width: 40%;
+    height: 60%;
+    /* margin-right: 200px; */
+    margin-left: 220px;
+    border: none;
+    border-radius: 50%;
+}
+
+.about_ceo .about_ceo_div p{
+    margin-left: 20%;
+    padding: 10px;
+    color: crimson;
+    text-align: initial;
+}
+
+.about-wrap .about_div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.about-wrap .about_div div{
+    width: 40%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.about-wrap h3{
+    color: rgb(8, 178, 245);
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* service style */
+
+main ul li{
+    list-style: none;
+}
+
+main ul li a {
+    text-decoration: none;
+}
+
+.surg-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-surg .surg-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-surg .surg-div .surg-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.surg-div .surg-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-surg .about-surg-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: brown;
+}
+
+.ortho-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-ortho .ortho-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .ortho-div .ortho-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.ortho-div .ortho-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-ortho .about-ortho-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+.radio-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-radio .radio-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .radio-div .radio-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.radio-div .radio-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-radio .about-radio-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+.derm-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .derm-surg .derm-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-derm .derm-div .derm-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.derm-div .derm-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.derm-surg .about-derm-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Derm Style */
+
+.derm-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-derm .derm-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-derm .derm-div .derm-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.derm-div .derm-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-derm .about-derm-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Ped style */
+.ped-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-ped .ped-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-ped .ped-div .ped-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.ped-div .ped-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-ped .about-ped-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Gyn Style */
+
+.gyn-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-gyn .gyn-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-gyn .gyn-div .gyn-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.gyn-div .gyn-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-gyn .about-gyn-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Neph Style */
+.neph-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-neph .neph-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-neph .neph-div .neph-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.neph-div .neph-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-neph .about-neph-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* cardio style */
+
+.cardio-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-cardio .cardio-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-cardio .cardio-div .cardio-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.cardio-div .cardio-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-cardio .about-cardio-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Patho style */
+
+.patho-div{
+    background:rgb(207, 207, 218);
+    /* padding-top: 0.1px; */
+}
+
+ .main-patho .patho-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+ .main-patho .patho-div .patho-equip{
+    background: white;
+    /* border: 2px solid gray; */
+    width: 30%;
+    margin: 0 15px;
+}
+
+.patho-div .patho-equip img{
+    width: 120%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.about-patho .about-patho-div {
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Contact Style */
+.contact_wrap .contact_wrap_div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contact_wrap .contact_wrap_media img{
+    width: 50%;
+    margin-left: 50%;
+    /* margin-bottom: 100%; */
+}
+
+.contact_wrap .contact_wrap_div .contact_us ul li{
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    list-style: none;
+    margin-left: 50%;
+    font-size: 18px;
+}
+
+.contact_wrap .contact_wrap_div .contact_us ul li a{
+    text-decoration: none;
+}
+
+
+ .contact_wrap_div{
+     background-image: url(../images/contact.jpg);
+     width: 100%;height: 130vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+ }
+
+ .contact_wrap .contact-comment-div{
+     background: linear-gradient(4deg, #939b9b, #327c51);
+     /* margin-bottom: 100%; */
+ }
+
+ .contact_wrap .contact-comment-div .contact-comment-div-form h5{
+     /* text-align: right; */
+     margin-left: 70%;
+     font-size: 20px;
+     margin-top: 0.1px;
+     padding-top: 20px;
+
+ }
+
+ .contact_wrap .contact-comment-div .contact-comment-div-form input{
+     margin-left: 65%;
+     width: 30%;
+     padding: 20px;
+     border: 1px solid palevioletred;
+     border-radius: 10px;
+     font-weight: bold;
+ }
+
+ .contact_wrap .contact-comment-div .contact-comment-div-form button{
+    margin-left: 65%;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    color: hotpink;
+ }
+
+ .contact_wrap .contact-comment-div .contact-comment-div-form 
+ button:hover{
+     color: black;
+     background-color: blue;
+     font-weight: bold;
+ }
+
+
+
+ /* media query */
+
+ @media  screen and (max-width: 380px) {
+     header nav{
+         background: beige;
+         min-height: 15px;
+     }
+
+     header nav ul{
+        float: right;
+        margin-right: -26px;
+    } 
+
+    h1{
+        font-size: 12px;
+        padding-left: 60px;
+        color: red;
+    }
+
+    .head-div h3{
+        font-size: 12px;
+        padding-left:  80px;
+        margin-bottom: 5px;
+    }
+
+    .head-div a{
+        padding-left: 40%;
+    }
+
+    header nav div img{
+        width: 5%;
+        height: 5vh;
+        padding: 10px;
+    }
+
+    .head-div{
+        background-image: url(../images/nurse-3624463_1920.jpg);
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 0.1px;
+
+    }
+
+    .main-wrapper .main-div{
+        display: block;
+        flex-wrap: nowrap;
+        margin-top: 1rem;
+        /* padding-top: 10px; */
+    }
+
+    .main-wrapper .main-div .equip{
+        background: white;
+        border: 2px solid gray;
+        width: 70%;
+        margin: 0 15px 0 50px;
+    }
+
+    .footer-wrap{
+        background: darkslategray;
+        display: block;
+        flex-wrap: nowrap;
+        /* margin-top: 30px; */
+    }
+
+    .footer-wrap div button{
+        width: 60%;
+        padding: 10px;
+        color: rgb(255, 238, 0);
+        font-size: 18px;
+        margin-bottom: 20px;
+        background: blue;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    /* about page media query */
+
+    .about_ceo div img{
+        width: 40%;
+        height: 60%;
+        /* margin-right: 200px; */
+        margin-left: 70px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .about_ceo .about_ceo_div p{
+        margin-left: 20%;
+        padding: 10px;
+        color: crimson;
+        text-align: initial;
+        margin-bottom: 150px;
+    }
+
+    .about-wrap h3{
+        color: rgb(8, 178, 245);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .about-wrap .about_div{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    main ul li{
+        margin-left: 65px;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+        color:brown;
+        margin-top: 50px;
+    }
+
+    /* contact media query */
+
+
+    .contact_wrap_div{
+        background-image: url(../images/contact.jpg);
+        width: 100% !important;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+   
+    }
+
+    .contact_wrap .contact_wrap_div .contact_us ul li{
+        /* display: flex; */
+        /* flex-wrap: nowrap; */
+        list-style: none;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    .contact_wrap .contact-comment-div .contact-comment-div-form h5{
+        /* text-align: right; */
+        margin-left: 70%;
+        font-size: 15px;
+        margin-top: 0.1px;
+        padding-top: 20px;
+   
+    }
+
+    
+ .contact_wrap .contact-comment-div .contact-comment-div-form input{
+    margin-left: 65%;
+    width: 22%;
+    padding: 20px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.contact_wrap .contact-comment-div .contact-comment-div-form button{
+    margin-left: 65%;
+    width: 33%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    color: hotpink;
+ }
+   
+ .contact_wrap .contact-comment-div .contact-comment-div-form 
+ button:hover{
+     color: black;
+     background-color: blue;
+     font-weight: bold;
+ }
+
+ .main-surg .surg-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.surg-div .surg-equip img{
+    width: 300%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.main-ortho .ortho-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.ortho-div .ortho-equip img{
+    width: 300%;
+    height: 50vh;
+    /* border-bottom: 1px solid gray; */
+    /* padding-top: 5%; */
+}
+
+.main-radio .radio-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.radio-div .radio-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+/* derm page */
+
+.main-derm .derm-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.derm-div .derm-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+.main-ped .ped-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.ped-div .ped-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+.main-gyn .gyn-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.gyn-div .gyn-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+.main-neph .neph-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.neph-div .neph-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+.main-cardio .cardio-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.cardio-div .cardio-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+.main-patho .patho-div{
+    display: block;
+    flex-wrap: nowrap;
+    margin-top: 4rem;
+    padding-top: 0.1px; 
+}
+
+.patho-div .patho-equip img{
+    width: 300%;
+    height: 50vh;
+}
+
+
+
+     
+ }
+
+
+    
+
+
+
+
+
+
+
